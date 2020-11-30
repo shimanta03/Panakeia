@@ -1,0 +1,220 @@
+/* 
+author: Shimanta Barua
+Email: shimantapciu@gmail.com
+website: designinsect.com
+ */
+
+
+
+/* 
+=== Index ===
+
+1. header
+2. Fusce at          
+3. Facilisis          
+4. Ante donec          
+5. Blandit rhoncus          
+6. Placerat
+7. Footer
+
+ */
+
+ /* global css */
+
+ *{
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .no-padding{
+     padding: 0px;
+ }
+
+ h2{
+    font-size: 50px;
+    font-weight: 300;
+ }
+
+h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+h4{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+p{
+ color: white;   
+}
+
+
+ /* theme css */
+ header{
+     background-color:#edeff1;
+ }
+ .nav-link {
+    color: #31353e;
+    margin-right: 10px;
+    font-weight: 400;
+  }
+  
+  .nav-link.js-scroll-trigger.active {
+    background: #dd4b2b;
+    color: #edeff1;
+    padding: 10px 30px;
+    border-radius: 25px;
+  }
+  
+  .fa-bars {
+    color: #31353e;
+  }
+ .banner{
+     text-align: center;
+     background-image: url(../images/banner.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 492px 0px 132px;
+     margin-top: 110px;
+ }
+.banner h2{
+    color: white;
+    font-size: 60px;
+
+}
+.banner h4{
+    color: white;
+    margin-bottom: 132px;
+}
+.banner h3{
+    color: white;
+    padding:31px 0px;
+}
+.banner p{
+    color: white;
+}
+
+.button-one{
+    padding: 17px 49px;
+    border-radius: 27px;
+    color: brown;
+    background: white;
+    border: none;
+    display: block;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+/* section two */
+
+.our{
+    text-align: center;
+    background-color: #edeff1;
+    padding: 90px 0;
+}
+.our h3{
+    font-size: 29px;
+    padding-bottom: 52px;
+}
+.our h4{
+    color: rgb(14, 13, 13);
+    padding: 25px 0px;
+}
+.our p{
+    color: rgb(34, 32, 32);
+    line-height: 30px;
+    padding: 15px 0px;
+}
+.our img{
+    width: 330px;
+}
+.news-btn{
+    padding: 17px 49px;
+    border-radius: 27px;
+    color: brown;
+    background: white;
+    text-decoration: none;
+}
+
+/* newsletter */
+
+.newsletter{
+    background-image: url(../images/banner-two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 94px 0px 112px;
+}
+.form-control{
+     padding: 23px 49px;
+     border-radius: 27px;
+     background-color: rgba(245, 245, 245, 0.226);
+     width: 80%;
+}
+
+.sub-btn{
+    padding: 15px 49px;
+    border-radius: 27px;
+    color: brown;
+    background: white;
+    border: none;
+    display: block;
+    margin-left:66%;
+    margin-top: -15%;
+}
+
+.photo{
+    padding: 100px 0px;
+}
+.photo h3{
+    margin-top: 15px;
+    color: black;
+    font-size: 28px;
+    padding-bottom: 24px
+    
+}
+
+.photo p{
+    color: rgb(26, 23, 23);
+    line-height: 33px;
+    font-size: 15px;
+}
+
+.photo img{
+    width: 500px;
+}
+.photo button{
+    padding: 12px 47px;
+    border: none;
+    background-color: #dd4b2b;
+    color: white;
+    border-radius: 26px;
+    margin-bottom: 77px;
+    margin-top: 37px;
+}
+#button-two{
+    background-color: #4B4E73;
+}
+
+.contact{
+    padding: 100px 0px;
+    background-color: #d75d0e;
+    text-align: center;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+footer{
+    padding: 90px 0px;
+    background-image: url(../images/banner-two.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
